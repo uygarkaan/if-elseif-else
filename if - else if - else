@@ -1,0 +1,20 @@
+public class Main {
+    public static void main(String[] args) {
+        int number1 = 15;
+        int number2 = 15;
+
+        int total = number1 + number2;
+        System.out.println("Total: " + total);
+
+        if (total > 50) {
+            // If the total is greater than 50, this code works.
+            System.out.println("Total is greater than 50.");
+        } else if (total < 25) {
+            // If the sum is not greater than 50 and less than 25, this code works.
+            System.out.println("Total is less than 25.");
+        } else {
+            // If the sum is neither greater than 50 nor less than 25, this code works.
+            System.out.println("Total between 25 and 50.");
+        }
+    }
+}
